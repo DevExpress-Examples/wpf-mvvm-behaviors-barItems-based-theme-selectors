@@ -1,0 +1,74 @@
+﻿<dxr:DXRibbonWindow x:Class="ThemeHelperWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" 
+        xmlns:dxr="http://schemas.devexpress.com/winfx/2008/xaml/ribbon" 
+        xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars"
+        xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+        xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors">
+    <dxb:BarManager Name="barManager">
+        <dxb:BarManager.Items>
+            <dxb:BarEditItem 
+                Name="eRibbonStyle" 
+                Content="Ribbon Style:" 
+                EditWidth="100" 
+                ClosePopupOnChangingEditValue="True" 
+                EditValue="{Binding ElementName=RibbonControl, Path=RibbonStyle}">
+                <dxb:BarEditItem.EditSettings>
+                    <dxe:ComboBoxEditSettings IsTextEditable="False" PopupMaxHeight="250">
+                        <dxe:ComboBoxEditSettings.Items>
+                            <dxr:RibbonStyle>Office2010</dxr:RibbonStyle>
+                            <dxr:RibbonStyle>Office2007</dxr:RibbonStyle>
+                        </dxe:ComboBoxEditSettings.Items>
+                    </dxe:ComboBoxEditSettings>
+                </dxb:BarEditItem.EditSettings>
+            </dxb:BarEditItem>
+            <dxr:RibbonGalleryBarItem Name="gRibbonThemeGalleryBarItem">
+                <dxr:RibbonGalleryBarItem.Gallery>
+                    <dxb:Gallery Name="ThemeGallery" MinColCount="3" ColCount="4" RowCount="2" ItemCheckMode="Single" FilterCaption="Themes" IsItemCaptionVisible="False" ItemCaptionHorizontalAlignment="Center" ItemGlyphSize="20,20">
+                        <dxb:Gallery.Groups>
+                            <dxb:GalleryItemGroup Name="GalleryItem"/>
+                        </dxb:Gallery.Groups>
+                    </dxb:Gallery>
+                </dxr:RibbonGalleryBarItem.Gallery>
+            </dxr:RibbonGalleryBarItem>
+            <dxr:RibbonGalleryBarItem Name="gRibbonThemeDropDownGalleryBarItem">
+                <dxr:RibbonGalleryBarItem.DropDownGallery>
+                    <dxb:Gallery Name="ThemeDropDownGallery"  MinColCount="3" ColCount="4" RowCount="2" ItemCheckMode="Single" FilterCaption="Themes" IsItemCaptionVisible="False" ItemCaptionHorizontalAlignment="Center">
+                        <dxb:Gallery.Groups>   
+                            <dxb:GalleryItemGroup Name="DropDownGalleryItem"/>
+                        </dxb:Gallery.Groups>
+                    </dxb:Gallery>
+                </dxr:RibbonGalleryBarItem.DropDownGallery>
+            </dxr:RibbonGalleryBarItem>
+            <dxb:BarSubItem Content="Themes" Name="ThemeGalleryBarSubItem"/>
+        </dxb:BarManager.Items>
+        <DockPanel>
+            <dxr:RibbonControl 
+                x:Name="RibbonControl" DockPanel.Dock="Top" 
+                ApplicationButtonText="File" 
+                PageCategoryAlignment="Right">
+                <dxr:RibbonDefaultPageCategory>
+                    <dxr:RibbonPage Caption="Themes">
+                        <dxr:RibbonPageGroup>
+                            <dxr:RibbonGalleryBarItemLink BarItemName="gRibbonThemeGalleryBarItem"/>
+                        </dxr:RibbonPageGroup>     
+                    </dxr:RibbonPage>
+                    <dxr:RibbonPage Caption="Themes">
+                        <dxr:RibbonPageGroup>
+                            <dxr:RibbonGalleryBarItemLink BarItemName="gRibbonThemeDropDownGalleryBarItem"/>
+                        </dxr:RibbonPageGroup>
+                    </dxr:RibbonPage>
+                    <dxr:RibbonPage Caption="Themes">
+                        <dxr:RibbonPageGroup>
+                            <dxb:BarSubItemLink BarItemName="ThemeGalleryBarSubItem" />
+                        </dxr:RibbonPageGroup>
+                    </dxr:RibbonPage>
+                </dxr:RibbonDefaultPageCategory>
+                <dxr:RibbonControl.PageHeaderItemLinks>
+                    <dxb:BarItemLink BarItemName="eRibbonStyle"/>
+                </dxr:RibbonControl.PageHeaderItemLinks> 
+            </dxr:RibbonControl>
+        </DockPanel>
+    </dxb:BarManager>
+</dxr:DXRibbonWindow>
