@@ -78,7 +78,7 @@
     <Reference Include="DevExpress.Data.v14.1, Version=14.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <Private>True</Private>
       <SpecificVersion>False</SpecificVersion>
-      
+
     </Reference>
     <Reference Include="DevExpress.Images.v14.1, Version=14.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <Private>True</Private>
@@ -86,22 +86,22 @@
     <Reference Include="DevExpress.Mvvm.v14.1, Version=14.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <Private>True</Private>
       <SpecificVersion>False</SpecificVersion>
-      
+
     </Reference>
     <Reference Include="DevExpress.Printing.v14.1.Core, Version=14.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <Private>True</Private>
       <SpecificVersion>False</SpecificVersion>
-      
+
     </Reference>
     <Reference Include="DevExpress.Xpf.Core.v14.1, Version=14.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <Private>True</Private>
       <SpecificVersion>False</SpecificVersion>
-      
+
     </Reference>
     <Reference Include="DevExpress.Xpf.Ribbon.v14.1, Version=14.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <Private>True</Private>
       <SpecificVersion>False</SpecificVersion>
-      
+
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
