@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml](./CS/WpfApplication1/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/WpfApplication1/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/WpfApplication1/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/WpfApplication1/MainWindow.xaml))
+* [ThemeHelper.cs](./CS/WpfApplication1/ThemeHelper.cs) (VB: [ThemeHelper.vb](./VB/WpfApplication1/ThemeHelper.vb))
+<!-- default file list end -->
 # How to implement a theme selector based on a bar item
 
 
