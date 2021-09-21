@@ -1,7 +1,7 @@
-﻿using DevExpress.Xpf.Ribbon;
+﻿using DevExpress.Xpf.Core;
 
 namespace ThemeHelperWPF {
-    public partial class MainWindow : DXRibbonWindow {
+    public partial class MainWindow : ThemedWindow {
         public MainWindow() {
             InitializeComponent();
         }
