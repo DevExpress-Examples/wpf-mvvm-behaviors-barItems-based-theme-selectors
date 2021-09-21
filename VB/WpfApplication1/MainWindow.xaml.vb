@@ -1,4 +1,4 @@
-﻿Imports System
+Imports System
 Imports System.Collections.Generic
 Imports System.Linq
 Imports System.Windows
@@ -6,10 +6,11 @@ Imports DevExpress.Xpf.Ribbon
 Imports DevExpress.Xpf.Core
 
 Namespace ThemeHelperWPF
+
     ''' <summary>
     ''' Interaction logic for MainWindow.xaml
     ''' </summary>
-    Partial Public Class MainWindow
+    Public Partial Class MainWindow
         Inherits DXRibbonWindow
 
         Public Sub New()
