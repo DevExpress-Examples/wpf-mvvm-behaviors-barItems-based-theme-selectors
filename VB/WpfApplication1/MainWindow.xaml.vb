@@ -1,7 +1,8 @@
-﻿Imports DevExpress.Xpf.Ribbon
+Imports DevExpress.Xpf.Ribbon
 
 Namespace ThemeHelperWPF
-    Partial Public Class MainWindow
+
+    Public Partial Class MainWindow
         Inherits DXRibbonWindow
 
         Public Sub New()
