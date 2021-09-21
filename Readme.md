@@ -13,6 +13,7 @@ DevExpress WPF Controls include the following behaviors that display a theme gal
 
 This example displays these theme selectors in the [Ribbon](https://docs.devexpress.com/WPF/DevExpress.Xpf.Ribbon.RibbonControl).
 
+![Display Theme Selectors Based on BarItems and Hide Themes from List](https://user-images.githubusercontent.com/12169834/134166215-b01b0996-9642-4d48-800c-df30023c619d.png)
 
 
 ## Hide Themes from Theme Selector
