@@ -34,7 +34,7 @@ Call the static [ApplicationThemeHelper.UpdateApplicationThemeName](https://docs
 ## Files to Look At
 
 - [MainWindow.xaml](./CS/WpfApplication1/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/WpfApplication1/MainWindow.xaml))
-- [MainWindow.xaml.cs](./CS/WpfApplication1/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/WpfApplication1/MainWindow.xaml.vb))
+- [App.xaml.cs](./CS/WpfApplication1/App.xaml.cs) (VB: [App.xaml.vb](./VB/WpfApplication1/App.xaml.vb))
 <!-- default file list end -->
 
 ## Documentation
