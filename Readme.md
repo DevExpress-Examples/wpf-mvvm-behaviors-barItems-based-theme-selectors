@@ -3,29 +3,29 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E4288)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
+# Display Theme Selectors Based on BarItems and Hide Themes from List
+
+DevExpress WPF Controls include the following behaviors that display a theme gallery in [Bars](https://docs.devexpress.com/WPF/DevExpress.Xpf.Bars.Bar) and [Ribbon](https://docs.devexpress.com/WPF/DevExpress.Xpf.Ribbon.RibbonControl):
+
+- [RibbonGalleryItemThemeSelectorBehavior](https://docs.devexpress.com/WPF/DevExpress.Xpf.Ribbon.RibbonGalleryItemThemeSelectorBehavior)
+- [BarSubItemThemeSelectorBehavior](https://docs.devexpress.com/WPF/DevExpress.Xpf.Bars.BarSubItemThemeSelectorBehavior)
+- [BarSplitItemThemeSelectorBehavior](https://docs.devexpress.com/WPF/DevExpress.Xpf.Bars.BarSplitItemThemeSelectorBehavior)
+
+This example displays these theme selectors in the [Ribbon](https://docs.devexpress.com/WPF/DevExpress.Xpf.Ribbon.RibbonControl).
+
+
+
+## Hide Themes from Theme Selector
+
+
+You can use the [Theme.ShowInThemeSelector](https://docs.devexpress.com/WPF/DevExpress.Xpf.Core.Theme.ShowInThemeSelector) property to hide a theme/theme category from behaviors.
+
+In this sample, the [Standard](https://docs.devexpress.com/WPF/DevExpress.Xpf.Core.Theme.StandardCategory) and [Metropolis](https://docs.devexpress.com/WPF/DevExpress.Xpf.Core.Theme.MetropolisCategory) theme categories are hidden from theme selectors.
+
+
 <!-- default file list -->
-*Files to look at*:
+## Files to Look At
 
-* [MainWindow.xaml](./CS/WpfApplication1/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/WpfApplication1/MainWindow.xaml))
+- [MainWindow.xaml](./CS/WpfApplication1/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/WpfApplication1/MainWindow.xaml))
+- [MainWindow.xaml.cs](./CS/WpfApplication1/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/WpfApplication1/MainWindow.xaml.vb))
 <!-- default file list end -->
-# How to implement a theme selector based on a bar item
-
-
-<p>This example demonstrates how to implement the WinForm <strong>SkinHelper</strong> class functionality in WPF applications (ThemeHelper) that populate an existing <strong>RibbonGalleryBarItem</strong> or any menu (<strong>PopupMenu</strong> or <strong>BarSubItem</strong>) with items that correspond to DevExpress themes.</p>
-<p>The basic logic is implemented in the <strong>ThemeHelper</strong> class.<br><br></p>
-<p><strong>Update:</strong></p>
-<p>Starting with v14.1, we introduced the <strong>RibbonGalleryItemThemeSelectorBehavior</strong>, <strong>BarSubItemThemeSelectorBehavior</strong>, and <strong>BarSplitItemThemeSelectorBehavior</strong> classes that automatically populate a corresponding bar item with all available themes:</p>
-
-
-```xaml
-<dxr:RibbonGalleryBarItem x:Name="ribbonGalleryBarItem1"....>
-    <dxmvvm:Interaction.Behaviors>
-        <dxr:RibbonGalleryItemThemeSelectorBehavior/>
-    </dxmvvm:Interaction.Behaviors>
-```
-
-
-
-<br/>
-
-
