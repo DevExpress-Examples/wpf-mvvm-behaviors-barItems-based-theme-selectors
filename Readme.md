@@ -4,7 +4,7 @@
 <!-- default badges end -->
 # WPF MVVM Behaviors - Display Theme Selectors Based on BarItems and Hide Themes from List
 
-DevExpress WPF Controls include the following behaviors that display a theme gallery in [Bars](https://docs.devexpress.com/WPF/DevExpress.Xpf.Bars.Bar) and [Ribbon](https://docs.devexpress.com/WPF/DevExpress.Xpf.Ribbon.RibbonControl):
+DevExpress WPF Controls include the following behaviors that display a theme gallery in [Bars](https://docs.devexpress.com/WPF/DevExpress.Xpf.Bars.Bar) and [Ribbon](https://docs.devexpress.com/WPF/DevExpress.Xpf.Ribbon.RibbonControl) controls:
 
 - [RibbonGalleryItemThemeSelectorBehavior](https://docs.devexpress.com/WPF/DevExpress.Xpf.Ribbon.RibbonGalleryItemThemeSelectorBehavior)
 - [BarSubItemThemeSelectorBehavior](https://docs.devexpress.com/WPF/DevExpress.Xpf.Bars.BarSubItemThemeSelectorBehavior)
