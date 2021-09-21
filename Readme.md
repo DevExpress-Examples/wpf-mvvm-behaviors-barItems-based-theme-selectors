@@ -44,3 +44,7 @@ Call the static [ApplicationThemeHelper.UpdateApplicationThemeName](https://docs
 - [BarSplitItemThemeSelectorBehavior](https://docs.devexpress.com/WPF/DevExpress.Xpf.Bars.BarSplitItemThemeSelectorBehavior)
 - [RibbonGalleryItemThemePaletteSelectorBehavior](https://docs.devexpress.com/WPF/DevExpress.Xpf.Ribbon.RibbonGalleryItemThemePaletteSelectorBehavior)
 - [Behaviors](https://docs.devexpress.com/WPF/17442/mvvm-framework/behaviors)
+
+## More Examples
+
+- [WPF MVVM Behaviors - Display a Theme Selector Based on a Hamburger Sub Menu](https://github.com/DevExpress-Examples/wpf-mvvm-behaviors-hamburger-based-theme-selector)
