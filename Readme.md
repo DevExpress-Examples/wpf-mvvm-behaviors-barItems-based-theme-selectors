@@ -27,9 +27,9 @@ In this example, the [Standard](https://docs.devexpress.com/WPF/DevExpress.Xpf.C
 
 Use can save the application's theme to the configuration file and restore it on the next application run.
 
-To save an applied theme, use the static [ApplicationThemeHelper.SaveApplicationThemeName](xref:DevExpress.Xpf.Core.ApplicationThemeHelper.SaveApplicationThemeName) method to save the theme name specified in the static [ApplicationThemeHelper.ApplicationThemeName](xref:DevExpress.Xpf.Core.ApplicationThemeHelper.ApplicationThemeName) property.
+To save an applied theme, use the static [ApplicationThemeHelper.SaveApplicationThemeName](https://docs.devexpress.com/WPF/DevExpress.Xpf.Core.ApplicationThemeHelper.SaveApplicationThemeName) method to save the theme name specified in the static [ApplicationThemeHelper.ApplicationThemeName](https://docs.devexpress.com/WPF/DevExpress.Xpf.Core.ApplicationThemeHelper.ApplicationThemeName) property.
 
-Call the static [ApplicationThemeHelper.UpdateApplicationThemeName](xref:DevExpress.Xpf.Core.ApplicationThemeHelper.UpdateApplicationThemeName) method to retrieve the theme name from the configuration file.
+Call the static [ApplicationThemeHelper.UpdateApplicationThemeName](https://docs.devexpress.com/WPF/DevExpress.Xpf.Core.ApplicationThemeHelper.UpdateApplicationThemeName) method to retrieve the theme name from the configuration file.
 
 
 <!-- default file list -->
