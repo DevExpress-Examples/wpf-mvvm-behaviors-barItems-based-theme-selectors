@@ -23,7 +23,7 @@ You can use the [Theme.ShowInThemeSelector](https://docs.devexpress.com/WPF/DevE
 
 In this example, the [Standard](https://docs.devexpress.com/WPF/DevExpress.Xpf.Core.Theme.StandardCategory) and [Metropolis](https://docs.devexpress.com/WPF/DevExpress.Xpf.Core.Theme.MetropolisCategory) theme categories are hidden.
 
-### Persist Theme Selection between Application Runs
+## Persist Theme Selection between Application Runs
 
 Use can save the application's theme to the configuration file and restore it on the next application run.
 
