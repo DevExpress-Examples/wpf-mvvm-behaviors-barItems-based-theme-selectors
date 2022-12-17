@@ -6,7 +6,7 @@ Namespace ThemeHelperWPF
         Inherits ThemedWindow
 
         Public Sub New()
-            InitializeComponent()
+            Me.InitializeComponent()
         End Sub
     End Class
 End Namespace
