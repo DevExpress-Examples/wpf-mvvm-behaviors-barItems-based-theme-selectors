@@ -50,3 +50,4 @@ Call the static [ApplicationThemeHelper.UpdateApplicationThemeName](https://docs
 ## More Examples
 
 - [WPF MVVM Behaviors - Display a Theme Selector Based on a Hamburger Sub Menu](https://github.com/DevExpress-Examples/wpf-mvvm-behaviors-hamburger-based-theme-selector)
+- [WPF MVVM Behaviors - Display a Theme Selector Based on a GalleryControl](https://github.com/DevExpress-Examples/wpf-mvvm-behaviors-gallery-based-theme-selector)
