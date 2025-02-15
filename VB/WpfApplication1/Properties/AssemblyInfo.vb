@@ -10,8 +10,6 @@
 ' You can find sample updates and versions for different programming languages here:
 ' http://www.devexpress.com/example=E4288
 Imports System.Reflection
-Imports System.Resources
-Imports System.Runtime.CompilerServices
 Imports System.Runtime.InteropServices
 Imports System.Windows
 
