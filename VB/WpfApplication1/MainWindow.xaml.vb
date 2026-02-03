@@ -6,7 +6,7 @@ Namespace ThemeHelperWPF
         Inherits DXRibbonWindow
 
         Public Sub New()
-            InitializeComponent()
+            Me.InitializeComponent()
         End Sub
     End Class
 End Namespace
