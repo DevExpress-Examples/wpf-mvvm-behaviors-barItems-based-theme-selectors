@@ -53,7 +53,7 @@ Call the static [ApplicationThemeHelper.UpdateApplicationThemeName](https://docs
 - [WPF MVVM Behaviors - Display a Theme Selector Based on a Hamburger Sub Menu](https://github.com/DevExpress-Examples/wpf-mvvm-behaviors-hamburger-based-theme-selector)
 - [WPF MVVM Behaviors - Display a Theme Selector Based on a GalleryControl](https://github.com/DevExpress-Examples/wpf-mvvm-behaviors-gallery-based-theme-selector)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-mvvm-behaviors-barItems-based-theme-selectors&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-mvvm-behaviors-barItems-based-theme-selectors&~~~was_helpful=no)
 
